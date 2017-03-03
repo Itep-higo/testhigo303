@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: testhigo303
+  host: testhigo303
+  disk_quota: 1024M
+  services:
+  - testhigo303-cloudantNoSQLDB
+  - Text to Speech-26
+  - availability-monitoring-auto
